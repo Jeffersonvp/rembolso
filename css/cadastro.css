@@ -1,0 +1,90 @@
+* {
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: 'teko';
+	src: url("../fonts/teko/Teko-Regular.ttf");
+	font-size: 1em;
+}
+
+@font-face {
+	font-family: 'Teko-Light';
+	src: url("../fonts/teko/Teko-Light.ttf");
+	font-size: 1em;
+}
+
+@font-face {
+	font-family: 'Teko-Bold';
+	src: url("../fonts/teko/Teko-Bold.ttf");
+	font-size: 1em;
+}
+
+
+}
+
+body#body{
+	background-color:  #88b1ff;
+}
+
+body {
+	background-color: #88b1ff;
+	height:100px; 
+}
+
+#a{
+
+position:static;
+ margin: 0;
+ width:100%;
+ height:100px; 
+ background-color:#669bff;
+font-family: "Teko-Bold"; 
+
+
+}
+
+
+#ini {
+
+text-align: center;
+font-family:"Teko-Bold";
+
+}
+
+
+#name{
+	width:30%;
+	position: relative;
+	font-family: "Teko-Light";
+}
+
+#CPF{
+	width:30%;
+	position: relative;
+	font-family: "Teko-Light";
+}
+
+#date{
+	width:30%;
+	position: relative;
+	font-family: "Teko-Light";
+}
+#email{
+	width:30%;
+	position: relative;
+	font-family: "Teko-Light";
+}
+
+#novo {
+
+margin-left:500px;	
+}
+
+#button{
+
+	position: relative;
+	right: 210px;
+	top:40px;
+
+}

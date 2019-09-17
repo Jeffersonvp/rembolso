@@ -1,0 +1,73 @@
+* {
+	box-sizing: border-box;
+}
+
+@font-face {                                   //utilização de fontes
+	font-family: 'teko';
+	src: url("../fonts/teko/Teko-Regular.ttf");
+	font-size: 1em;
+}
+
+@font-face {
+	font-family: 'Teko-Light';
+	src: url("../fonts/teko/Teko-Light.ttf");
+	font-size: 1em;
+}
+
+@font-face {
+	font-family: 'Teko-Bold';
+	src: url("../fonts/teko/Teko-Bold.ttf");
+	font-size: 1em;
+}
+
+#usuario{ 
+	width:30%;
+	position: relative;
+	left: 400px;
+	top:80px;
+	font-family: "Teko-Light";		
+}
+
+#senha{
+	width:30%;
+	position: relative;
+	left: 400px;
+	top:80px;
+	font-family: "Teko-Light";
+}
+
+
+
+#lo{
+
+ position:static;
+ margin: 0;
+ width: 106%;
+ height:100px; 
+ background-color:#669bff;
+ z-index:2; 
+ background-position: all;
+font-family: "teko-Bold"; 
+}
+
+#button{
+
+	position: relative;
+	left: 400px;
+	top:85px;
+
+}
+
+body {
+	position: absolute;
+	height: all;
+	background-color: #88b1ff;
+	background-position: all;
+}
+#ini {
+
+text-align: center;
+left:400px;
+font-family:"teko-Bold";
+
+}

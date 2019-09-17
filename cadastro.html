@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html>
+   <header>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/cadastro.css">
+      <title>CADASTRO|REMBOLSO</title>
+      <h1 id=a>Cadastro</h1>
+   </header>
+   <body id="body">
+      <div class="form-group" id="ini">
+         <h2>Cadastro para acesso ao sistema de rembolso</h2>
+      </div>
+      <form action="cadastro.php" method="POST">
+         <div class="form-group" id="novo" >
+            <label>Nome:</label>
+            <input type="text" class="form-control"name="nome" id="name" placeholder="informe o seu nome" required>
+            <label>CPF:</label>
+            <input type="number" class="form-control"name="number" id="CPF"placeholder="informe o seu CPF" required>
+            <label>Data nascimento:</label>
+            <input type="date" class="form-control" id="date" name="data" id="data"min="1920-01-01" max="2080-12-31" required>
+            <label>Email:</label>
+            <input type="text" class="form-control"name="email" id="email" placeholder="informe o seu email" required>
+            <label>tipo de usuario:</label>
+            <select name="tipousuario" required>
+               <option value="Funcionario">Funcionario</option>
+               <option value="Gestor">Gestor</option>
+            </select>
+            <button id="button"type="submit" class="btn btn-success">Confirmar</button>
+            <button id="button"type="submit" class="btn btn-danger"  onclick="window.location.replace('index.html')" >Cancelar</button>
+      </form>
+      </div>
+   </body>
+</html>
